@@ -128,7 +128,7 @@ Ensure the following tools are installed and accessible in your environment:
 Run the pipeline with the following command:
 
 ```bash
-python3 splitseqdemultiplex-3.4.0.py \
+python3 splitseqdemultiplex-1.1.0.py \
   -n <num_cores> \
   -e <error_threshold> \
   -m <min_reads_per_cell> \
@@ -181,7 +181,7 @@ python3 splitseqdemultiplex-3.4.0.py \
 
 ### Full Pipeline with Alignment
 ```bash
-python3 splitseqdemultiplex-3.4.0.py \
+python3 splitseqdemultiplex-1.1.0.py \
   -n 4 \
   -e 1 \
   -m 10 \
