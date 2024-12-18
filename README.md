@@ -3,6 +3,7 @@ This repository contains Davidson Lab's SPLiT-seq demultiplexing pipeline (from 
 This tool was created to provide an open source, portable solution for demultiplexing SPLiT-Seq RNA-Seq datasets. 
 
 see https://github.com/paulranum11/SPLiT-Seq_demultiplexing for details on previous versions
+
 for most recent updates and differences between versions see Updates sections
 
 ## System Requiremnets
@@ -14,11 +15,17 @@ This script is written in bash and python3 and should be portable across a varie
 In order to run this software you must install the following dependency packages.
 
 Python3 needs to be installed on your system. Often the executable name of python3 can vary... for example it may appear as python or as python3. This script requires that the executable be python.
+
 Python3 packages: math, os, psutil, argparse, sys, datetime, itertools, re
+
 GNU parallel: https://www.gnu.org/software/parallel/
+
 UMI-tools: https://github.com/CGATOxford/UMI-tools
+
 STAR: https://github.com/alexdobin/STAR in order to run the optional aligment step the STAR rna-seq aligner is required along with an appropriate STAR genome index.
+
 featureCounts: http://subread.sourceforge.net/
+
 Samtools: https://github.com/samtools/samtools
 
 ## Getting Started
